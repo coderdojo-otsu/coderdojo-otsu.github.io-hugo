@@ -1,3 +1,26 @@
-baseurl = "http://coderdojo-otsu.github.io/"
+baseurl = "https://coderdojo-otsu.github.io/"
 languageCode = "ja-JP"
 title = "CoderDojo大津"
+email = "coderdojo.otsu@gmail.com"
+googleAnalytics = "UA-85343173-1"
+
+[params.see_more]
+    enable = true
+    icon = "fa fa-file-code-o"
+    title = "CoderDojo大津は"
+    subtitle = "こどもたちがプログラミングを通じて表現やものづくりを学び合う場です"
+    link_url = "/about"
+    link_text = "詳しく"
+
+[[params.menu]]
+	name = "ホーム"
+	url = "/"
+	weight = 1
+[[params.menu]]
+	name = "お問い合わせ"
+	url = "/contact"
+	weight = 4
+[params.widgets]
+    search = true
+    categories = true
+    tags = true
